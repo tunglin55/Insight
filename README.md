@@ -10,7 +10,7 @@ Several features were selected for
 ## Models
 
 ## Webapp
-A web app was built with Flask and hosted on AWS that allows users to predict delays based on their date and time of travel in downtown Toronto. A map with travel times in different segments of the city is displayed. Click [here](www.torontotrafficforecast.com) to access the Webapp.
+A web app was built with Flask and hosted on AWS that allows users to predict delays based on their date and time of travel in downtown Toronto. A map with travel times in different segments of the city is displayed. Click [here](http://www.torontotrafficforecast.com) to access the Webapp.
 
 
 
