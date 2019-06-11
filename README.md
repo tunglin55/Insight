@@ -19,12 +19,15 @@ Several features were narrowed down to predict travel times: Day of the week, Ho
 ###
 <p align="center">
 <img src="images/Pearson.png">
+</p>
 
 
 ## Models
 Random forrest regressions were used to predict travel times in downtown Toronto. Datasets were split 75% and 25% into train and test datasets respectively. Hyperparameter tuning was performed where a random search was first initiated. With the random search results, a grid search was performed with 3-fold cross validation to obtain the optimized paramaters for the model. Evaluations of the model performances were subsequently performed on the test dataset using several metrics including mean squared error, mean absolute error and R<sup>2</sup>.
 
+<p align="center">
 <img src="images/Test_Predicted_Actual_Scatter.png">
+</p>
 
 
 
@@ -34,4 +37,6 @@ A web app was built with Flask and hosted on AWS that allows users to predict de
 ## Success Measures and Generalizations 
 Give that the webapp is deployed, there are several key performance indicators that can be used to evaluations. For example, how far do the accuracy of the predictions deviate from the needs of the companies? Are traffic delays reduced after the deployment of the webapp? and how many users are using this webapp? Additionally, the ability to predict car traffic in this project can be generalized to other domains as well: network traffic, social traffic and even population flow. 
 
-<img src="images/network_traffic.png">
+<p align="center">
+<img width="500" height="300" src="images/network_traffic.png">
+</p>
