@@ -6,6 +6,7 @@ Being stuck in traffic can be extremly frustrating. The increased carbon dioxide
 ## Travel Time Data 
 Travel time data on streets and highways across the city of Toronto were used for this project. Specifically, data recorded from Bluetooth and Wifi sensors at 5-minute intervals were used. Information were derived from single locations whenever a mobile deivce or vehicle passes by the sensors.
 
+<img src="images/Histogram_Raw.png">
 
 ## Features
 Several features were narrowed down to predict travel times: Day of the week, Hour of the day, Holidays, Weather conditions (temperature, visibility, and snow presence), Toronto Raptors', Blue Jays' and Maple Leafs' games and events hosted at the Scotiabank arena. Correlation matrix between features below presents a sample features of how they are correlated to each other.
@@ -16,7 +17,7 @@ Several features were narrowed down to predict travel times: Day of the week, Ho
 ## Models
 Random forrest regressions were used to predict travel times in downtown Toronto. Datasets were split 75% and 25% into train and test datasets respectively. Hyperparameter tuning was performed where a random search was first initiated. With the random search results, a grid search was performed with 3-fold cross validation to obtain the optimized paramaters for the model. Evaluations of the model performances were subsequently performed on the test dataset using several metrics including mean squared error, mean absolute error and R<sup>2</sup>.
 
-
+<img src="images/Test_Predicted_Actual_Scatter.png">
 
 
 
@@ -25,3 +26,5 @@ A web app was built with Flask and hosted on AWS that allows users to predict de
 
 ## Success Measures and Generalizations 
 Give that the webapp is deployed, there are several key performance indicators that can be used to evaluations. For example, how far do the accuracy of the predictions deviate from the needs of the companies? Are traffic delays reduced after the deployment of the webapp? and how many users are using this webapp? Additionally, the ability to predict car traffic in this project can be generalized to other domains as well: network traffic, social traffic and even population flow. 
+
+<img src="images/network_traffic.png">
