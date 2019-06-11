@@ -8,8 +8,7 @@ Travel time data on streets and highways across the city of Toronto were used fo
 
 
 ## Features
-Several features were narrowed down to predict travel times: Day of the week, Hour of the day, Holidays, Weather conditions (temperature, visibility, and snow presence), Toronto Raptors', Blue Jays' and Maple Leafs' games and events hosted at the Scotiabank arena. Correlation matrix between features below presents a sample of how the features are correlated to each other.
-
+Several features were narrowed down to predict travel times: Day of the week, Hour of the day, Holidays, Weather conditions (temperature, visibility, and snow presence), Toronto Raptors', Blue Jays' and Maple Leafs' games and events hosted at the Scotiabank arena. Correlation matrix between features below presents a sample features of how they are correlated to each other.
 
 <img src="images/Pearson.png">
 
