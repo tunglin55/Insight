@@ -7,15 +7,17 @@ Being stuck in traffic can be extremly frustrating. The increased carbon dioxide
 
 
 ## Travel Time Data 
-###
+
 Travel time data on streets and highways across the city of Toronto were used for this project. Specifically, data recorded from Bluetooth and Wifi sensors at 5-minute intervals were used. Information were derived from single locations whenever a mobile deivce or vehicle passes by the sensors.
+###
 <p align="center">
 <img src="images/Histogram_Raw.png">
 </p>
 
 ## Features
 Several features were narrowed down to predict travel times: Day of the week, Hour of the day, Holidays, Weather conditions (temperature, visibility, and snow presence), Toronto Raptors', Blue Jays' and Maple Leafs' games and events hosted at the Scotiabank arena. Correlation matrix between features below presents a sample features of how they are correlated to each other.
-
+###
+<p align="center">
 <img src="images/Pearson.png">
 
 
