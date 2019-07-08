@@ -19,20 +19,28 @@ df = func.timestamp_resample(df, resamp_method, start_date,end_date) #Binning of
 #%% Add features to design matrix
 # Day of the Week
 df = func.day_of_week(df)
+
 # Hour of the day
 df = func.hour_of_day(df)
+
 # Weather (temperature, snow and visibility)
 df = func.weather(df, resamp_method, start_date,end_date)
+
 # Holidays
 df = func.holiday(df, resamp_method, start_date, end_date)
+
 # NBA games
 df = func.NBA(df, resamp_method, start_date, end_date)
+
 # MLB games
 df = func.MLB(df, resamp_method, start_date, end_date)
+
 # NHL games
 df = func.NHL(df, resamp_method, start_date,end_date)
+
 # Scotiabank Arena Events
 df = func.Scotiabank_arena_events(df, resamp_method, start_date, end_date)
+
 # Replacing backfilled NaNs with 0 and converting attendances to binary
 df = func.cleanup(df)
 df = func.attendance_to_binary(df)
