@@ -34,6 +34,14 @@ Random forrest regressions were used to predict travel times in downtown Toronto
 ## AWS Webapp
 A web app was built with Flask and hosted on AWS that allows users to predict delays based on their date and time of travel in downtown Toronto. A map with travel times in different segments of the city is displayed. Click [here](http://www.torontotrafficforecast.com) to access the Webapp.
 
+<p align="center">
+<img width="700" height="500" src="images/Webpage_Home.png">
+</p>
+
+<p align="center">
+<img width="800" height="400" src="images/Webpage_Map.png">
+</p>
+
 ## Success Measures and Generalizations 
 Give that the webapp is deployed, there are several key performance indicators that can be used to evaluations. For example, how far do the accuracy of the predictions deviate from the needs of the companies? Are traffic delays reduced after the deployment of the webapp? and how many users are using this webapp? Additionally, the ability to predict car traffic in this project can be generalized to other domains as well: network traffic, social traffic and even population flow. 
 
