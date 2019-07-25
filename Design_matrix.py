@@ -44,6 +44,3 @@ df = func.Scotiabank_arena_events(df, resamp_method, start_date, end_date)
 # Replacing backfilled NaNs with 0 and converting attendances to binary
 df = func.cleanup(df)
 df = func.attendance_to_binary(df)
-
-#%%
-# df.to_csv('/Users/tung-linwu/Desktop/Insight/data/design_matrix/D_matrix_' +route_segment+'_bt.csv')
