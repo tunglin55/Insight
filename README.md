@@ -32,7 +32,8 @@ Random forrest regressions were used to predict travel times in downtown Toronto
 
 
 ## AWS Webapp
-A web app was built with Flask and hosted on AWS that allows users to predict delays based on their date and time of travel in downtown Toronto. A map with travel times in different segments of the city is displayed. Click [here](http://www.torontotrafficforecast.com) to access the Webapp.
+A web app was built with Flask and hosted on AWS that allows users to predict delays based on their date and time of travel in downtown Toronto. A map with travel times in different segments of the city is displayed. Click here to access the Webapp. 
+* Note (2019-09-11): Demo period ended. Please refer to the following screenshots.
 
 <p align="center">
 <img width="900" height="500" src="images/Webapp_Home.png">
